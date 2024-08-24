@@ -1154,7 +1154,7 @@ fun! s:apply_syntax_highlightings()
       set background=light
     endif
 
-    exec 'hi NonText' . s:fg_nontext . s:bg_background
+    exec 'hi NonText' . s:fg_nontext
     exec 'hi LineNr' . s:fg_linenumber_fg . s:bg_linenumber_bg
     exec 'hi Conceal' . s:fg_linenumber_fg . s:bg_linenumber_bg
     exec 'hi VertSplit' . s:fg_vertsplit_bg . s:bg_vertsplit_fg
